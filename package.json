@@ -1,0 +1,17 @@
+
+
+{
+  "name": "multiserver-bluetooth-rp",
+  "version": "1.0.0",
+  "description": "A scuttlebutt multiserver plugin to support bluetooth repeater.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MetaLife-Protocol/multiserver-bluetooth-rp.git"
+  },
+  "author": "heroims",
+  "license": "MIT"
+}
