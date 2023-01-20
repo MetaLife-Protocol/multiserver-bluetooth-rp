@@ -84,7 +84,7 @@ function makePlugin(opts) {
 
   function stringify (s) {
     if (s !== scope()) return;
-    return ['bt', toInternalAddress(ownMacAddress)].join(':')
+    return ownMacAddress ? ['bt', toInternalAddress(ownMacAddress)].join(':') : null;
   }
 
   return {
